@@ -105,7 +105,7 @@ test("POST -> 'BASE_URL_PRODUCTS/:id/images', should return status code 200, and
         filename:"cocina.jpg",
         productId
     }
-    //debo crear la imagen
+    
     productImg = await ProductImg.create(productImgBody)
 
     const res = await request(app)

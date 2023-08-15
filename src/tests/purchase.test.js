@@ -13,8 +13,8 @@ let product
 
 beforeAll(async()=>{
     const user ={
-        email: "demilanesa@gmail.com",
-        password: "123456"
+        email: "keyri@gmail.com",
+        password: "1234567"
     }
 
     const res = await request(app)
@@ -30,8 +30,8 @@ test("POST ->'BASE_URL_PURCHASE', should return status code 201 and res.body.qua
    
     const productBody = {
         title:"Iphone 12",
-        description:"lorem12",
-        price:"123.78"
+        description:"lorem123",
+        price:"1232.78"
     }
     product = await Product.create(productBody)
 

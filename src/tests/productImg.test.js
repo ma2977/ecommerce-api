@@ -9,8 +9,8 @@ let productImgId
 
 beforeAll(async()=>{
     const user = {
-        email: "demilanesa@gmail.com",
-        password: "123456"
+        email: "Keyri@gmail.com",
+        password: "1234567"
     }
 
     const res = await request(app)

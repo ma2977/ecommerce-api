@@ -7,8 +7,8 @@ let userId
 
 beforeAll(async()=>{
     const user = {
-        email: "camila123@gmail.com",
-        password: "12345"
+        email: "keyri@gmail.com",
+        password: "1234567"
     }
 
     const res = await request(app)
@@ -62,8 +62,8 @@ test("PUT -> 'BASE_URL/:id', should return status code 200 and res.body.firstNam
 
 test("POST 'BASE_URL/login', should return status code 200 res.body.email === body.email and token defined", async()=>{
     const userLogin = {
-        email: "miketyson@quemail.com",
-        password: "123456",
+        email: "dylan@gmail.com",
+        password: "1234567",
     }
 
     const res = await request(app)

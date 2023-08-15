@@ -6,8 +6,6 @@ const Cart = sequelize.define('cart', {
         type: DataTypes.INTEGER,
         allowNull: false
     },
-    //userId
-    //productId
 });
 
 module.exports = Cart;

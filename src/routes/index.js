@@ -6,7 +6,8 @@ const routerCart = require('./cart.router');
 const routerPurchase = require('./purchase.router');
 const routerProductImg = require('./productImg.router');
 const router = express.Router();
-// colocar las rutas aquí
+
+
 router.use('/users', routerUser)
 router.use('/categories', routerCategory)
 router.use('/products', routerProduct)
